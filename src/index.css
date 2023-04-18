@@ -1,13 +1,35 @@
+.background {
+    background-image: url('../public/moon.jpg');
+    background-size: 90%;
+    background-position: -350% 30%;
+    /* background-position: right; */
+
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%, rgba(1,0,5,1) 100%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.gradient{
+    background-color: #130f40;
+background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
 }
+.gradient1{
+    background-color: #2b4162;
+background-image: linear-gradient(320deg, #2b4162 0%, #12100e 34%);
+}
+
+.done{
+    color: rgb(25, 204, 55);
+}
+.fail{
+    color:rgb(235, 14, 14);
+}
+.day-headings{
+    color: #049cbe;
+}
+.text-light {
+    font-family: monospace, 'Montserrat', sans-serif;
+    font-size: larger;
+    
+  }
